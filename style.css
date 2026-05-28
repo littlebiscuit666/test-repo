@@ -94,6 +94,36 @@ section h2 {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-label {
+    background: rgba(79, 172, 254, 0.15);
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    min-width: 70px;
+    text-align: center;
+}
+
+.contact-item a {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
